@@ -135,4 +135,4 @@ X_test = test_data[features]
 prediction = model.predict(X_test)
 test_data['classe'] = prediction
 test_data.loc[:,['id', 'classe']].to_csv('submission.csv', encoding='utf-8', index=False)
-
+#end
